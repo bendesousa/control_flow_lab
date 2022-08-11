@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class SecretNumber {
 
     public static void main(String[] args) {
-//        Declare the secret number
-        //int secretNumber = 77;
 //        Prompt the user to input a number
         System.out.println("Guess the Secret Number");
 //        Collect user input
