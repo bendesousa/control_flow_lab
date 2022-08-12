@@ -7,14 +7,14 @@ public class SecretNumber {
         System.out.println("Guess the Secret Number");
 //        Collect user input
         Scanner reader = new Scanner(System.in);
-          int secretNumber = reader.nextInt();
+          int guessNumber = reader.nextInt();
 //        If the number is correct, print "You got it!"
 //        Otherwise print either too low or too high
-        if (secretNumber == 77){
+        if (guessNumber == 77){
             System.out.println("You got it!");
-        } else if (secretNumber < 77){
+        } else if (guessNumber < 77){
             System.out.println("Too low!");
-        } else if (secretNumber > 77){
+        } else if (guessNumber > 77){
             System.out.println("Too high!");
         }
     }
