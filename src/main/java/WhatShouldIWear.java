@@ -6,6 +6,7 @@ public class WhatShouldIWear {
         System.out.println("Daily Outfit Selector");
 //        Prompt the user to input the weather from a list
         System.out.println("PLease pick one of the following weather conditions: Sun, Rain, Snow,");
+//        Gave a list of weather conditions to ensure that the code could not be broken by user inputting a condition that had not been accounted for
 //        Collect user input
         Scanner reader = new Scanner(System.in);
         String weather = reader.nextLine();
@@ -28,6 +29,7 @@ public class WhatShouldIWear {
         } else if (weather.equals("Snow") && temperature >= 15){
             System.out.println("Hoodie and trousers");
         }
+//        Temperature conditions were set so that any temperature input could be captured in the process
 
     }
 
